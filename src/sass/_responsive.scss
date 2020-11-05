@@ -1,0 +1,201 @@
+
+
+@media only screen and (max-width: 320px) {
+   
+    .down-arrow,
+    #intro-text-b {
+        display: none;
+    }
+    #intro-text-c {
+        width: 80%;
+        font-size: xx-small;
+    }
+    .letter-split {
+        display: none;
+        
+    }
+    #contact-modal-container {
+        gap: 40px 0;
+    }
+}
+
+
+@media only screen and (min-width: 320px) {
+   
+    .down-arrow {
+        display: none;
+    }
+    .flip-card-front svg {
+        padding: 20px;
+    }
+    #intro-text-b {
+        width: 80%;
+    }
+    #intro-text-c {
+        width: 65%;
+    }
+}
+
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .main-nav,
+    .admin-nav {
+        display: none;
+    }
+    header {
+        height: 50vh;
+    }
+    .slide-wrapper img {
+        display: none;
+    }
+    .intro-cards {
+        grid-column: 3/7;
+    }
+    .letter-split {
+        font-size: 6em;
+        width: 100%;
+        top: 1.5em;
+        
+    }
+    .who-text-wrapper {
+        grid-column: 3/5;
+        grid-row: 2/3;
+    }
+    #who-img-wrapper {
+        grid-column: 3/5;
+    }
+    #tables-wrapper {
+        grid-column: 2/6;
+    }
+    #project {
+        gap: 0;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    .letter-split {
+        font-size: 6em;
+        top: 2.5em;
+    }
+
+    #intro-text-c h1 {
+        font-size: 1em;
+    }
+    .flip-card-front svg {
+        padding: 20px;
+    }
+    #intro-text-c {
+        left: 5%;
+        top: 70%;
+        width: 90%;
+    }
+    .flip-card-back h1 {
+        padding: 20px 20px 10px 20px;
+    }
+    .flip-card-back p {
+        font-size: 14px;
+    }
+    .intro-cards {
+        grid-column: 3/7;
+    }
+    .letter-split {
+        font-size: 5em;
+        top: 2em;
+    }
+    #tables {
+        column-gap: 0;
+    }
+#cv-table {
+    width: 100%; 
+    border-collapse: collapse; 
+}
+table, thead, tbody, th, td, tr { 
+    display: block; 
+}
+thead tr { 
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+tr { border: 1px solid #ccc; }
+
+td { 
+    /* Behave  like a "row" */
+    border: none;
+    border-bottom: 1px solid #eee; 
+    position: relative;
+    padding-left: 50%; 
+}
+
+td:before { 
+    /* Now like a table header */
+    position: absolute;
+    /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%; 
+    padding-right: 10px; 
+    white-space: nowrap;
+}
+/*td:nth-of-type(1):before { content: "DATUM"; }
+td:nth-of-type(2):before { content: "FÖRETAG"; }
+td:nth-of-type(3):before { content: "TITEL"; }
+td:nth-of-type(4):before { content: "CODE"; }
+td:nth-of-type(5):before { content: "NAME"; }
+td:nth-of-type(6):before { content: "PROGRESSION"; }
+td:nth-of-type(7):before { content: "SYLLABUS"; }*/
+    
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 414px) {
+    footer {
+        height: 900px;
+    }
+    .letter-split {
+        font-size: 6em;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+    footer .sub-footer {
+        padding: 30px 3% 30px;
+    }
+    footer ul li:nth-child(1) {
+        display: none;
+    }
+    footer ul li:nth-child(2) {
+        float: left;
+    }
+    #admin-body {
+        overflow: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    #contact-modal-container {
+        grid-template-rows: 1fr repeat(2, minmax(auto, 30em)) 1fr;
+        gap: 40px 12px;
+    }
+    .contact-modal {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+    footer {
+        min-height: 850px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    header {
+        height: 50vh;
+    }
+}
+

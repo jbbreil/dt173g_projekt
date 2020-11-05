@@ -1,0 +1,22 @@
+.transition-fade {
+    opacity: 1; // when content fades in
+    transition: 500ms;
+    //-webkit-transition: 0.65s cubic-bezier(0.62, 0.02, 0.34, 1) 0.15s;
+    //-moz-transition: 0.65s cubic-bezier(0.62, 0.02, 0.34, 1) 0.15s;
+    //transition: 0.65s cubic-bezier(0.62, 0.02, 0.34, 1) 0.15s;// animated transition 
+
+    transform: translateX(0); // default content position
+    transform-origin: left; // default position on the left-hand side of transformed elements
+}
+
+/* ADD PROPERTY TO HTML */
+html.is-animating .transition-fade {
+    opacity: 1; // content´s effect on ENTER page 
+    transform: translateX(100%); // slide in from the left-hand side by starting all the way on the right side of the screen
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0; // content´s effect on LEAVING page 
+    transform: translateX(0); // don´t want page moving when it leaving 
+}
+

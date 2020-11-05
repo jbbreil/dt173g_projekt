@@ -1,0 +1,65 @@
+@import 'header';
+@import 'hamburger';
+@import 'admin';
+@import 'footer';
+@import 'swup';
+@import 'main-html';
+@import 'navigering';
+@import "responsive";
+@import "font";
+
+
+*, *:after, *:before {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+* {margin:0;padding:0;border:0 none;position: relative; outline: none;
+}
+
+body, html {
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: 'Sansita Swashed','Roboto', sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  letter-spacing: -0.05em;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  padding-bottom: 2.2em;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 0.5em;
+  color: #212121;
+}
+
+p {
+  @include main-paragraph;  
+}

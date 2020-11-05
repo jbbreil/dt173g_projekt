@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79 67" width="79" height="67">
+	<style>
+		tspan { white-space:pre }
+		.txt0 { font-size: 38px;fill: #ffffff;font-weight: 400;font-family: "Fondamento-Regular", "Fondamento" } 
+	</style>
+	<text id="J " style="transform: matrix(0.973,-0.23,0.23,0.973,13.572,48.36)" >
+		<tspan x="0" y="0" class="txt0">J</tspan>
+	</text>
+	<text id="B " style="transform: matrix(0.979,-0.206,0.206,0.979,23.854,52.978)" >
+		<tspan x="0" y="0" class="txt0">B</tspan>
+	</text>
+	<text id="B " style="transform: matrix(0.979,-0.205,0.205,0.979,43.791,48.741)" >
+		<tspan x="0" y="0" class="txt0">B</tspan>
+	</text>
+</svg>

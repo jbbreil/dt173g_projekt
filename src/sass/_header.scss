@@ -1,0 +1,87 @@
+@import "mixins";
+@import "font";
+
+header {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr repeat(4, minmax(auto, 30em)) 1fr;
+}
+
+.intro-main {
+    background: url(../../images/bg/intro-bg.svg) fixed no-repeat;
+    color: $intro-color-one;
+}
+.who-main {
+    background: url(../../images/bg/who-bg.svg) fixed no-repeat;
+    color: $who-color-one;
+}
+.what-main {
+    background: url(../../images/bg/what-bg.svg) fixed no-repeat;
+    color: $what-color-one;
+}
+.work-main {
+    background: url(../../images/bg/work-bg.svg) fixed no-repeat;
+    color: $work-color-one;
+
+}
+
+.logo {
+    grid-column: 1/2;
+    grid-row: 1;
+    margin: 30px 0 0 10px;
+    position: fixed;
+    border: solid 3px white;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.logo img {
+    text-align: center;
+}
+.slide-wrapper {
+    grid-column: 3/6;
+    grid-row: 1/2;
+}
+
+.slide-wrapper-intro {
+    grid-column: 2/6;
+    grid-row: 1/2;
+}
+
+.slide-wrapper img {
+    position: absolute;
+    left: -4em;
+    top: 21em;
+    z-index: 2;
+    height: 200px;
+}
+
+.letter-split {
+    font-size: 20em;
+    position: absolute;
+    top: .6em;
+    left: 0;
+    text-shadow: -1px 6px 8px #363636;
+}
+
+
+
+
+
+
+/* Letters split */
+
+.char1 {
+    text-transform: capitalize;
+}
+.char2 {
+
+}
+.char3 {
+    
+}
+.char4 {
+    
+}
+

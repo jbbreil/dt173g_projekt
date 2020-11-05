@@ -1,0 +1,32 @@
+// Google fonts
+
+@import "font";
+
+// Variables
+
+$who-color-one: #96ffca;
+$who-color-two: #1544c0;
+
+$intro-color-one: #212121;
+$intro-color-two: #fed410;
+
+$what-color-one: #eeff07;
+$what-color-two: #f35235;
+
+$work-color-one: #fbe10f;
+$work-color-two: #5116a6;
+
+$p-color: #212121e6;
+
+// Mixins
+
+@mixin main-paragraph {
+    color: $p-color;
+    font-size: 16px;
+    line-height: 1.7em;
+    letter-spacing: -0.02em;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
